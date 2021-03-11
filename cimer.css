@@ -1,5 +1,6 @@
 body{
     padding: 5px 25px;
+    background-image: url('hatter.png');
   }
   
   p{
@@ -16,6 +17,7 @@ body{
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
     line-height: 120%;
+    height: 200%;
   }
   
   h1, h2{
@@ -51,4 +53,8 @@ body{
   
   #teljes{
     float:right;
+    width: 280px;
+  }
+  a:link{
+      color: #7F7F7F;
   }
